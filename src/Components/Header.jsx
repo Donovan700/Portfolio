@@ -7,7 +7,7 @@ function Header() {
       <div className="row align-items-center">
         <div className="col-md-6">
           {/* <span className='badge'><img src="../../public/Delighted.png" alt="image" className="rounded-circle" /></span> */}
-          <img src="../../public/Boss2.png" alt="image" className='img-fluid' />
+          <img src="Boss2.png" alt="image" className='img-fluid' />
           {/* <span className='badge'><img src="../../public/Sized.png" alt="image" className="rounded-circle" /></span> */}
         </div>
         <div className="col-md-6">

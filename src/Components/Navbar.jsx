@@ -7,7 +7,7 @@ function Navbar() {
         <div className="container-fluid d-flex align-items-center"> {/* Utilisation de d-flex et align-items-center */}
           <a className="navbar-brand" href="#header">
             <img
-              src="../../public/BRYAN.png"
+              src="BRYAN.png"
               alt="image"
               className="navbar-brand-image"
             />
