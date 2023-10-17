@@ -1,0 +1,27 @@
+#get
+{
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: gray;
+    background-color: #f5f5f5; /* Couleur de fond du pied de page */
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Styles pour les écrans plus petits que 768px */
+@media (max-width: 768px) {
+    #get
+    {
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+}

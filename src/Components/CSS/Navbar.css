@@ -1,0 +1,44 @@
+* {
+    max-width: 100%;
+    width: 100%;
+}
+
+.navbar-brand-image {
+    border-radius: 50%; /* 100% de border-radius pour un cercle */
+    width: 80px; /* Taille souhaitée en pixels */
+}
+
+.navbar {
+    width: 100%;
+    max-width: 100%;
+    height: 80px; /* Ajustez la hauteur si nécessaire */
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* Styles pour les écrans plus petits que 768px */
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        max-width: 100%;
+        height: 80px; /* Ajustez la hauteur si nécessaire */
+        top: 0;
+        left: 0;
+    }
+    .navbar-brand-image {
+        width: 30px; /* Réduisez la largeur de l'image */
+    }
+    .container-fluid, .navbar-toggler-icon, .nav-item, .navbar-toggler {
+        width: auto; /* Réinitialisez la largeur à "auto" pour le contenu adaptatif */
+        font-size: 14px; /* Réinitialisez la taille de la police pour le contenu adaptatif */
+    }
+    #title {
+        font-size: 10px;
+    }
+    .navbar-toggler
+    {
+        display: inline-block;
+        justify-content: center;
+    }
+}

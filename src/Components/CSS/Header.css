@@ -1,0 +1,27 @@
+/* Styles par défaut pour les écrans plus grands */
+.img-fluid {
+    width: 400px;
+    max-width: 100%; /* Pour s'adapter à la largeur du conteneur parent */
+}
+.btn
+{
+    width: 20%;
+}
+.rounded-circle
+{
+    width: 50px;
+}
+
+/* Styles pour les écrans plus petits que 768px */
+@media (max-width: 768px) {
+    .img-fluid {
+        width: 100%; /* Largeur maximale pour s'adapter à la largeur du conteneur parent */
+        max-width: 100%; /* Pour s'assurer que l'image n'est pas plus large que le conteneur parent */
+        margin-left: 0; /* Réinitialiser la marge à gauche */
+        position: static; /* Réinitialiser la position */
+    }
+    .btn
+    {
+        width: 40%;
+    }
+}

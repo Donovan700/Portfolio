@@ -1,0 +1,11 @@
+#ps
+{
+    background-image: url('/front-site/public/MultiColore.png');
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    img
+    {
+        height: inherit;
+    }
+}
