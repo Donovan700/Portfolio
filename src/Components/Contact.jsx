@@ -20,7 +20,7 @@ function Contact() {
             </div><br/>
             <div className="row">
                 <span className="col"></span>
-                <a href="../../public/Docs/MyCV.pdf" target={"_blank"}><button className="btn btn-secondary" id="get">Get CV</button></a>
+                <a href="Docs/MyCV.pdf" target={"_blank"}><button className="btn btn-secondary" id="get">Get CV</button></a>
                 <span className="col"></span>
             </div>
             <h3 className="display-20" style={{ bottom: '0', left: '0', color: 'gray', textAlign: 'left', opacity: '40%' }}>
