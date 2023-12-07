@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import './CSS/Experience.css'
 
@@ -59,7 +61,7 @@ function Experience() {
                         <h2 className="card-title font-weight-bold">Hotel's chambers reservation</h2><br/>
                         <h3 className="card-subtitle display-10" style={{color: "gray"}}>HOT'ELLE</h3><br/>
                         <p className="card-text">It's a software application only available for PC</p>
-                        <button className='btn btn-primary' id='click'><a href="https://github.com/Donovan700/Reservation-Chambre" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }}>See...</a></button>
+                        <button className='btn btn-primary' id='click'><a href="https://github.com/Donovan700/Reservation-Chambre" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }} rel="noreferrer">See...</a></button>
                     </div>
                     <div className="col mb-4">
                     <div className="col mb-4">
@@ -67,7 +69,7 @@ function Experience() {
                         <h2 className="card-title font-weight-bold">Expense Management</h2><br/>
                         <h3 className="card-subtitle display-10" style={{color: "gray"}}>E-Manage</h3><br/>
                         <p className="card-text">Web application which is managing your expense by their categories</p>
-                        <button className='btn btn-primary' id='click'><a href="https://github.com/Donovan700/E-Manage" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }}>See...</a></button>
+                        <button className='btn btn-primary' id='click'><a href="https://github.com/Donovan700/E-Manage" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }} rel="noreferrer">See...</a></button>
                     </div>
                     </div>
                     <div className="col mb-4">
@@ -76,7 +78,7 @@ function Experience() {
                         <h2 className="card-title font-weight-bold">Data Extractor</h2><br/>
                         <h3 className="card-subtitle display-10" style={{color: "gray"}}>Xtract-It</h3><br/>
                         <p className="card-text">It's a software application only available on PC which is extracting xml and excel datas</p>
-                        <button className='btn btn-primary' id='click'><a href="https://github.com/Donovan700/DataExtractor" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }}>See...</a></button>
+                        <button className='btn btn-primary' id='click'><a href="https://github.com/Donovan700/DataExtractor" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }} rel="noreferrer">See...</a></button>
                     </div>
                     </div>
                     <div className="col mb-4">
@@ -85,14 +87,14 @@ function Experience() {
                         <h2 className="card-title font-weight-bold">Web game</h2><br/>
                         <h3 className="card-subtitle display-10" style={{color: "gray"}}>Flappy Bird</h3><br/>
                         <p className="card-text">A web game without a responsive design</p>
-                        <button className='btn btn-primary' id='click'><a href="https://github.com/Donovan700/Flappy--Bird" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }}>See...</a></button>
+                        <button className='btn btn-primary' id='click'><a href="https://github.com/Donovan700/Flappy--Bird" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }} rel="noreferrer">See...</a></button>
                     </div>
                     </div>
                 </div>
             </div>
             <br/><br/><br/>
             <p>
-                Those are only some few projects I've displayed here but you can see all of my personal projects on <a href="https://github.com/Donovan700" target={"_blank"}>Github</a>. Some
+                Those are only some few projects I've displayed here but you can see all of my personal projects on <a href="https://github.com/Donovan700" target={"_blank"} rel="noreferrer">Github</a>. Some
                 of these projects are available online or on PC. Anyway, My projects are not limited on the above only but there are more if it is on Github or not, please note that these projects are
                 still in production so they are able to be contribuate by any developers \\if needed\\ and not on their final version. 
             </p>
@@ -101,29 +103,25 @@ function Experience() {
             <div className="card">
                 <div className="row">
                     <div className="col">
-                        <a href="https://drive.google.com/file/d/1YmYh0XpExUXwsskW-cSJ3tsOuYsBoycG/view?usp=drive_link" target={"_blank"}><img src="Google-ateliers-numériques.jpg" alt="image" /></a>
+                        <a href="https://drive.google.com/file/d/1YmYh0XpExUXwsskW-cSJ3tsOuYsBoycG/view?usp=drive_link" target={"_blank"} rel="noreferrer"><img src="Google-ateliers-numériques.jpg" alt="image" /></a>
                     </div>
                     <div className="col">
-                        <a href="https://drive.google.com/file/d/17icTa8JfaxQWwAwY7_hd9fcPXnpb6udU/view?usp=drive_link" target={"_blank"}><img src="Mooc.png" alt="image" /></a>
+                        <a href="https://drive.google.com/file/d/17icTa8JfaxQWwAwY7_hd9fcPXnpb6udU/view?usp=drive_link" target={"_blank"} rel="noreferrer"><img src="Mooc.png" alt="image" /></a>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col">
-                        <a href="https://drive.google.com/file/d/1myo0ui0DoikLv96IffQMxpHSezF3jYlt/view?usp=drive_link" target={"_blank"}><img src="Mooc.png" alt="image" /></a>
+                        <a href="https://drive.google.com/file/d/1myo0ui0DoikLv96IffQMxpHSezF3jYlt/view?usp=drive_link" target={"_blank"} rel="noreferrer"><img src="Mooc.png" alt="image" /></a>
                     </div>
                     <div className="col">
-                        <a href="https://drive.google.com/file/d/1IguxI5MmCi94c3HTtAfY6gxypNNDd0p1/view?usp=drive_link" target={"_blank"}><img src="hackerrank.png" alt="image" /></a>
+                        <a href="https://drive.google.com/file/d/1IguxI5MmCi94c3HTtAfY6gxypNNDd0p1/view?usp=drive_link" target={"_blank"} rel="noreferrer"><img src="hackerrank.png" alt="image" /></a>
                     </div>
                 </div>
             </div>
             <br/><br/><br/>
             <p>
-                Those are just a few online and electronical certifications that I've displayed but there is more on my <a href="https://www.linkedin.com/in/bryan-rakoto-sedson-007842234/" target={"_blank"}>Linkedin</a> account
+                Those are just a few online and electronical certifications that I've displayed but there is more on my <a href="https://www.linkedin.com/in/bryan-rakoto-sedson-007842234/" target={"_blank"} rel="noreferrer">Linkedin</a> account
                 to check out.
-                {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Saepe maiores perspiciatis veritatis nesciunt tempore explicabo natus animi praesentium quidem fugit ab odio
-                 atque aspernatur,
-                 necessitatibus repellat, inventore facilis! Sint, veniam! */}
             </p>
         </div>
     )
