@@ -5,7 +5,7 @@ import '../Components/CSS/Navbar.css'
 function Navbar() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
-        <div className="container-fluid d-flex align-items-center"> {/* Utilisation de d-flex et align-items-center */}
+        <div className="container-fluid d-flex align-items-center">
           <a className="navbar-brand" href="#header">
             <img
               src="BRYAN.png"

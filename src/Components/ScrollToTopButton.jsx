@@ -5,7 +5,7 @@ import './CSS/ScrollToTopButton.css';
 function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Fonction pour faire défiler vers le haut
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -13,7 +13,7 @@ function ScrollToTopButton() {
     });
   };
 
-  // Gérer l'affichage du bouton en fonction de la position de défilement
+
   const handleScroll = () => {
     if (window.scrollY > 100) {
       setIsVisible(true);
@@ -22,7 +22,7 @@ function ScrollToTopButton() {
     }
   };
 
-  // Ajouter un écouteur d'événements pour le défilement
+
   window.addEventListener('scroll', handleScroll);
 
   return (
