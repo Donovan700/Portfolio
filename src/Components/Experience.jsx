@@ -233,13 +233,46 @@ function Experience() {
                 <Modal.Title>All software's projects</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                <h3>Check on Github</h3>
-                <p>
-                    I studied at Rambolamasoandro High School in Ambohidratrimo Madagascar following scientific path,
-                    I've obtained a fairly good observation on my High School Degree Diploma with a rate of 13.68/20 of
-                    my subjects mean
-                </p>
-                <h3></h3>
+                <Card>
+                    <Card.Img variant="top" src="RightNumber.png" alt="Image du projet" />
+                    <Card.Body>
+                        <Card.Title>Data Xtractor</Card.Title>
+                        <Card.Text>
+                            Data Xtractor is a simple software which extract datas from an XML or Excel files,
+                            It doesn't really have many functionalities unless they're more idea to optimize the project
+                        </Card.Text>
+                        <a href="https://github.com/Donovan700/DataExtractor.git" target="_blank" rel="noopener noreferrer"><Button variant="primary">Watch code</Button></a>
+                    </Card.Body>
+                    <Card.Img variant="top" src="Chambers.png" alt="Image" />
+                    <Card.Body>
+                        <Card.Title>Chamber's Reservation</Card.Title>
+                        <Card.Text>
+                            This software is Chamber's room reservation software available on Windows.
+                            It hasn't released yet but only in beta version which any Hotels could use in no time,
+                            It has a several functionalities which includes sending mail,generating PDF form,....
+                        </Card.Text>
+                        <a href="https://github.com/Donovan700/Reservation-Chambre.git" target="_blank" rel="noopener noreferrer"><Button variant="primary">Watch code</Button></a>
+                    </Card.Body>
+                    <Card.Img variant="top" src="Stock.jpeg" alt="Image" />
+                    <Card.Body>
+                        <Card.Title>Stock Management</Card.Title>
+                        <Card.Text>
+                            This is a software's application only available on Windows.It helps with managing
+                            incomes or outcomes of your product,that's why it is called "Stock Management"
+                        </Card.Text>
+                        <a href="https://github.com/Donovan700/StockAPI.git" target="_blank" rel="noopener noreferrer"><Button variant="primary">Watch code</Button></a>
+                    </Card.Body>
+                    <Card.Img variant="top" src="ASECNA.jpeg" alt="Image" />
+                    <Card.Body>
+                        <Card.Title>AMHS Gateway</Card.Title>
+                        <Card.Text>
+                            This is a very huge project with ASECNA Madagascar and Aeronautical networks systems.
+                            Unfortunately, I'm not able to communicate neither the details of the project nor
+                            the source code of the project due to the restriction by the Agency privacy.
+                        </Card.Text>
+                        <Button variant="primary" onClick={handleCloseDesktop}>Confirm</Button>
+                    </Card.Body>
+                </Card>
                 </Modal.Body>
             </Modal>
             <Modal show={showMobileModal} onHide={handleCloseMobile}>
@@ -248,12 +281,17 @@ function Experience() {
                 </Modal.Header>
                 <Modal.Body>
                 <h3>Check on Github</h3>
-                <p>
-                    I studied at Rambolamasoandro High School in Ambohidratrimo Madagascar following scientific path,
-                    I've obtained a fairly good observation on my High School Degree Diploma with a rate of 13.68/20 of
-                    my subjects mean
-                </p>
-                <h3></h3>
+                <Card>
+                <Card.Img variant="top" src="RightNumber.png" alt="Image du projet" />
+                    <Card.Body>
+                        <Card.Title>Right Number</Card.Title>
+                        <Card.Text>
+                        This is a mobile game available on Android ans IOS system,
+                        It's not released yet but it will soon on 2024
+                        </Card.Text>
+                        <a href="https://github.com/Donovan700/GuessNumber.git" target="_blank" rel="noopener noreferrer"><Button variant="primary">Watch code</Button></a>
+                    </Card.Body>
+                </Card>
                 </Modal.Body>
             </Modal>
             <Modal show={showGameModal} onHide={handleCloseGame}>
@@ -262,12 +300,53 @@ function Experience() {
                 </Modal.Header>
                 <Modal.Body>
                 <h3>Check on Github</h3>
-                <p>
-                    I studied at Rambolamasoandro High School in Ambohidratrimo Madagascar following scientific path,
-                    I've obtained a fairly good observation on my High School Degree Diploma with a rate of 13.68/20 of
-                    my subjects mean
-                </p>
-                <h3></h3>
+                <Card>
+                    <Card.Img variant="top" src="RightNumber.png" alt="Image du projet" />
+                    <Card.Body>
+                        <Card.Title>Right Number</Card.Title>
+                        <Card.Text>
+                        This is a mobile game available on Android ans IOS system,
+                        It's not released yet but it will soon on 2024
+                        </Card.Text>
+                        <a href="https://github.com/Donovan700/GuessNumber.git" target="_blank" rel="noopener noreferrer"><Button variant="primary">Watch code</Button></a>
+                    </Card.Body>
+                    <Card.Img variant="top" src="Car.png" alt="Image" />
+                    <Card.Body>
+                        <Card.Title>Car Swiping</Card.Title>
+                        <Card.Text>
+                            This is game project running in a navigator,It's a pretty much funny game tought it hasn't
+                            been responsived yet. 
+                        </Card.Text>
+                        <a href="https://github.com/Donovan700/Car-Swiping.git" target="_blank" rel="noopener noreferrer"><Button variant="primary">Watch code</Button></a>
+                    </Card.Body>
+                    <Card.Img variant="top" src="Dino.png" alt="Image" />
+                    <Card.Body>
+                        <Card.Title>Crazy UFO</Card.Title>
+                        <Card.Text>
+                            This is a Dino copy project which I called Crazy UFO,It hasn't released yet due to
+                            the project hasn't been responsived yet and there are so many features and bugs to be checked
+                        </Card.Text>
+                        <a href="https://github.com/Donovan700/Dino.git" target="_blank" rel="noopener noreferrer"><Button variant="primary">Watch code</Button></a>
+                    </Card.Body>
+                    <Card.Img variant="top" src="Flappy.png" alt="Image" />
+                    <Card.Body>
+                        <Card.Title>Flappy Bird</Card.Title>
+                        <Card.Text>
+                            This is a "Flappy bird" game using only navigator,This is a fairly copy of the original
+                            game Flappy Bird so it's not an original kind of game I've created
+                        </Card.Text>
+                        <a href="https://github.com/Donovan700/Flappy--Bird.git" target="_blank" rel="noopener noreferrer"><Button variant="primary">Watch code</Button></a>
+                    </Card.Body>
+                    <Card.Img variant="top" src="Pong.jpeg" alt="Image" />
+                    <Card.Body>
+                        <Card.Title>Pong</Card.Title>
+                        <Card.Text>
+                            This is retro game Pong that I try to make it better,It will work on Windows.
+                            This project is still in progress from now...
+                        </Card.Text>
+                        <Button variant="primary" onClick={handleCloseGame}>Confirm</Button>
+                    </Card.Body>
+                    </Card>
                 </Modal.Body>
             </Modal>
             <Modal show={showWebModal} onHide={handleCloseWeb}>
@@ -277,46 +356,52 @@ function Experience() {
                 <Modal.Body>
                     <h3>Check on Github</h3>
                     <Card>
-                    <Card.Img variant="top" src="Ecole.jpg" alt="Image du projet" />
+                    <Card.Img variant="top" src="Portfolio.png" alt="Image du projet" />
                     <Card.Body>
                         <Card.Title>Portfolio</Card.Title>
                         <Card.Text>
-                        Description du projet.
+                        My Online Curriculum Vitae,You can see all my Achievements,Projects,Skills,Certifications and 
+                        my education programs
                         </Card.Text>
-                        <Button variant="primary">Watch code</Button>
                         <a href="https://bit.ly/bryan-donovan"><Button variant="primary">See Website</Button></a>
                     </Card.Body>
-                    <Card.Img variant="top" src="Flight.jpg" alt="Image" />
+                    <Card.Img variant="top" src="Manage.jpeg" alt="Image" />
                     <Card.Body>
                         <Card.Title>E-Manage</Card.Title>
                         <Card.Text>
-                            Description
+                            This is an online platform that helps user to manage their money,Especially their outcomes 
+                            either their incomes.Each expenditure should have their own category so it is this platform,It shows
+                            us our expenditure's mouvement.
                         </Card.Text>
-                        <Button variant="primary">Watch code</Button>
+                        <a href="https://github.com/Donovan700/E-Manage.git" target="_blank" rel="noopener noreferrer"><Button variant="primary">Watch code</Button></a>
                     </Card.Body>
-                    <Card.Img variant="top" src="Data.jpg" alt="Image" />
+                    <Card.Img variant="top" src="Soutenance.jpeg" alt="Image" />
                     <Card.Body>
                         <Card.Title>Soutenance's Management</Card.Title>
                         <Card.Text>
-                            Description
+                            This is a school project which is to manage "Soutenance".A Soutenance is the final step
+                            to get a Professional Bachelor's Degree or to be an Engineer if you've studied in College for
+                            more than 5 years.
                         </Card.Text>
-                        <Button variant="primary">Watch code</Button>
+                        <a href="https://github.com/Donovan700/GestionDeSoutenance.git" target="_blank" rel="noopener noreferrer"><Button variant="primary">Watch code</Button></a>
                     </Card.Body>
-                    <Card.Img variant="top" src="HighSchool.jpg" alt="Image" />
+                    <Card.Img variant="top" src="Watch.png" alt="Image" />
                     <Card.Body>
                         <Card.Title>Web Watch</Card.Title>
                         <Card.Text>
-                            Description
+                            This is a static platform which is just a clock watch showing the time,it depends
+                            on the time you got on your PC.
                         </Card.Text>
-                        <Button variant="primary">Watch code</Button>
+                        <a href="https://github.com/Donovan700/Watch--JS.git" target="_blank" rel="noopener noreferrer"><Button variant="primary">Watch code</Button></a>
                     </Card.Body>
-                    <Card.Img variant="top" src="Artia.png" alt="Image" />
+                    <Card.Img variant="top" src="Music.png" alt="Image" />
                     <Card.Body>
-                        <Card.Title>You Play</Card.Title>
+                        <Card.Title>E-Music</Card.Title>
                         <Card.Text>
-                            Description
+                            This is music platform project which you can listen to your local music.It is not a releasing
+                            project but just an educational one in term of the terms and policies of music buisness.
                         </Card.Text>
-                        <Button variant="primary">Watch code</Button>
+                        <a href="https://github.com/Donovan700/YouPlay.git" target="_blank" rel="noopener noreferrer"><Button variant="primary">Watch code</Button></a>
                     </Card.Body>
                     </Card>
                 </Modal.Body>
