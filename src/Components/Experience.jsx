@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 // eslint-disable-next-line no-unused-vars
 import React, {useState} from "react";
-import { Modal } from 'react-bootstrap';
+import { Modal, Card, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CSS/Experience.css'
 
@@ -12,6 +12,9 @@ function Experience() {
     const [showENIModal, setShowENIModal] = useState(false);
     const [showLRAModal, setShowLRAModal] = useState(false);
     const [showDesktopModal, setShowDesktopModal] = useState(false);
+    const [showMobileModal, setShowMobileModal] = useState(false);
+    const [showGameModal, setShowGameModal] = useState(false);
+    const [showWebModal, setShowWebModal] = useState(false);
 
     const handleShow = () => setShowASECNAModal(true);
     const handleClose = () => setShowASECNAModal(false);
@@ -23,6 +26,12 @@ function Experience() {
     const handleCloseLRA = () => setShowLRAModal(false);
     const handleShowDesktop = () => setShowDesktopModal(true);
     const handleCloseDesktop = () => setShowDesktopModal(false);
+    const handleShowMobile = () => setShowMobileModal(true);
+    const handleCloseMobile = () => setShowMobileModal(false);
+    const handleShowGame = () => setShowGameModal(true);
+    const handleCloseGame = () => setShowGameModal(false);
+    const handleShowWeb = () => setShowWebModal(true);
+    const handleCloseWeb = () => setShowWebModal(false);
 
     return (
         <div className="container" id="experience">
@@ -98,7 +107,8 @@ function Experience() {
                         <h2 className="card-title font-weight-bold">Mobile</h2><br/>
                         <h3 className="card-subtitle display-10" style={{color: "gray"}}>Mobile Apps</h3><br/>
                         <p className="card-text">Mobile applications category</p>
-                        <button className='btn btn-primary btn-see-all' id="Mobile"><a href="https://github.com/Donovan700/E-Manage" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }} rel="noreferrer">See All</a></button>
+                        {/* <button className='btn btn-primary btn-see-all' id="Mobile"><a href="https://github.com/Donovan700/E-Manage" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }} rel="noreferrer">See All</a></button> */}
+                        <button className="btn btn-primary btn-see-all" id="Mobile" onClick={handleShowMobile}>See All</button>
                     </div>
                     </div>
                     <div className="col mb-4">
@@ -107,7 +117,8 @@ function Experience() {
                         <h2 className="card-title font-weight-bold">Game</h2><br/>
                         <h3 className="card-subtitle display-10" style={{color: "gray"}}>Mobile Apps & Softwares</h3><br/>
                         <p className="card-text">Games development category which run on PC or Smartphone</p>
-                        <button className='btn btn-primary btn-see-all' id="Game"><a href="https://github.com/Donovan700/DataExtractor" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }} rel="noreferrer">See All</a></button>
+                        {/* <button className='btn btn-primary btn-see-all' id="Game"><a href="https://github.com/Donovan700/DataExtractor" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }} rel="noreferrer">See All</a></button> */}
+                        <button className="btn btn-primary btn-see-all" id="Game" onClick={handleShowGame}>See All</button>
                     </div>
                     </div>
                     <div className="col mb-4">
@@ -116,7 +127,8 @@ function Experience() {
                         <h2 className="card-title font-weight-bold">Web</h2><br/>
                         <h3 className="card-subtitle display-10" style={{color: "gray"}}>Web platform</h3><br/>
                         <p className="card-text">Websites or online platforms category</p>
-                        <button className='btn btn-primary btn-see-all' id="Web"><a href="https://github.com/Donovan700/Flappy--Bird" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }} rel="noreferrer">See All</a></button>
+                        {/* <button className='btn btn-primary btn-see-all' id="Web"><a href="https://github.com/Donovan700/Flappy--Bird" target={"_blank"} className="text-white" style={{ textDecoration: 'none' }} rel="noreferrer">See All</a></button> */}
+                        <button className="btn btn-primary btn-see-all" id="Web" onClick={handleShowWeb}>See All</button>
                     </div>
                     </div>
                 </div>
@@ -228,6 +240,85 @@ function Experience() {
                     my subjects mean
                 </p>
                 <h3></h3>
+                </Modal.Body>
+            </Modal>
+            <Modal show={showMobileModal} onHide={handleCloseMobile}>
+                <Modal.Header closeButton>
+                <Modal.Title>All Mobile's projects</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                <h3>Check on Github</h3>
+                <p>
+                    I studied at Rambolamasoandro High School in Ambohidratrimo Madagascar following scientific path,
+                    I've obtained a fairly good observation on my High School Degree Diploma with a rate of 13.68/20 of
+                    my subjects mean
+                </p>
+                <h3></h3>
+                </Modal.Body>
+            </Modal>
+            <Modal show={showGameModal} onHide={handleCloseGame}>
+                <Modal.Header closeButton>
+                <Modal.Title>All Game's projects</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                <h3>Check on Github</h3>
+                <p>
+                    I studied at Rambolamasoandro High School in Ambohidratrimo Madagascar following scientific path,
+                    I've obtained a fairly good observation on my High School Degree Diploma with a rate of 13.68/20 of
+                    my subjects mean
+                </p>
+                <h3></h3>
+                </Modal.Body>
+            </Modal>
+            <Modal show={showWebModal} onHide={handleCloseWeb}>
+                <Modal.Header closeButton>
+                    <Modal.Title>All Web's projects</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <h3>Check on Github</h3>
+                    <Card>
+                    <Card.Img variant="top" src="Ecole.jpg" alt="Image du projet" />
+                    <Card.Body>
+                        <Card.Title>Portfolio</Card.Title>
+                        <Card.Text>
+                        Description du projet.
+                        </Card.Text>
+                        <Button variant="primary">Watch code</Button>
+                        <a href="https://bit.ly/bryan-donovan"><Button variant="primary">See Website</Button></a>
+                    </Card.Body>
+                    <Card.Img variant="top" src="Flight.jpg" alt="Image" />
+                    <Card.Body>
+                        <Card.Title>E-Manage</Card.Title>
+                        <Card.Text>
+                            Description
+                        </Card.Text>
+                        <Button variant="primary">Watch code</Button>
+                    </Card.Body>
+                    <Card.Img variant="top" src="Data.jpg" alt="Image" />
+                    <Card.Body>
+                        <Card.Title>Soutenance's Management</Card.Title>
+                        <Card.Text>
+                            Description
+                        </Card.Text>
+                        <Button variant="primary">Watch code</Button>
+                    </Card.Body>
+                    <Card.Img variant="top" src="HighSchool.jpg" alt="Image" />
+                    <Card.Body>
+                        <Card.Title>Web Watch</Card.Title>
+                        <Card.Text>
+                            Description
+                        </Card.Text>
+                        <Button variant="primary">Watch code</Button>
+                    </Card.Body>
+                    <Card.Img variant="top" src="Artia.png" alt="Image" />
+                    <Card.Body>
+                        <Card.Title>You Play</Card.Title>
+                        <Card.Text>
+                            Description
+                        </Card.Text>
+                        <Button variant="primary">Watch code</Button>
+                    </Card.Body>
+                    </Card>
                 </Modal.Body>
             </Modal>
         </div>
