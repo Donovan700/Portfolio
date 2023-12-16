@@ -234,7 +234,7 @@ function Experience() {
                 </Modal.Header>
                 <Modal.Body>
                 <Card>
-                    <Card.Img variant="top" src="RightNumber.png" alt="Image du projet" />
+                    <Card.Img variant="top" src="Data.jpeg" alt="Image du projet" />
                     <Card.Body>
                         <Card.Title>Data Xtractor</Card.Title>
                         <Card.Text>
