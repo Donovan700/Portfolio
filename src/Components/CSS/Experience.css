@@ -6,16 +6,111 @@
 {
     color: gray;
 }
+
+.experience-image {
+    height: 250px; /* Ajustez la hauteur selon vos besoins */
+    width: 100%; /* Assurez-vous que la largeur s'ajuste de manière appropriée */
+    object-fit: cover; /* Assurez-vous que l'image conserve ses proportions */
+}
+
+/* Ajoutez cette règle pour aligner les boutons au bas de chaque carte */
+.card .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Ajoutez cette règle pour aligner correctement les boutons "Click for more" */
+.btn-more-details {
+    position: relative;
+    left: 4vw;
+    top: 3vh;
+}
+
+.project-image {
+    height: 200px; /* Ajustez la hauteur selon vos besoins */
+    width: 100%; /* Assurez-vous que la largeur s'ajuste de manière appropriée */
+    object-fit: cover; /* Assurez-vous que l'image conserve ses proportions */
+}
+
+
+#PbSolving,#LRA
+{
+    top: 8vh;
+}
+
+#ENI
+{
+    top: 13vh;
+}
+
+
+
+.btn-see-all {
+    position: relative;
+    left: 3vw;
+    top: 5vh;
+}
+
+#Mobile
+{
+    top: 9vh;
+}
+
+
+#Game
+{
+    top: 2vh;
+}
+
+.icon
+{
+    width: 10%;
+}
+
+.ModalView
+{
+    width: 100%;
+}
+
+
+#Web
+{
+    top: 6.5vh;
+}
+
 /* Styles pour les écrans plus petits que 768px */
 @media (max-width: 768px) {
     .img-fluid {
-        width: 100%; /* Largeur maximale pour s'adapter à la largeur du conteneur parent */
-        max-width: 100%; /* Pour s'assurer que l'image n'est pas plus large que le conteneur parent */
-        margin-left: 0; /* Réinitialiser la marge à gauche */
-        position: static; /* Réinitialiser la position */
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        position: static;
     }
     .btn
     {
         width: 40%;
     }
+    .btn-more-details 
+    {
+        width: 70%;
+        position: relative;
+        left: 7vw;
+    }
+    #ENI,#PbSolving,#LRA,#ASECNA
+    {
+        top: 0vh;
+    }
+    .btn-see-all
+    {
+        width: 70%;
+        top: 0vh;
+    }
+
+    #Mobile
+    {
+        top: 0vh;
+    }
+
 }

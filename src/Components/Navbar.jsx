@@ -6,7 +6,7 @@ function Navbar() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
         <div className="container-fluid d-flex align-items-center">
-          <a className="navbar-brand" href="#header">
+          <a className="navbar-brand" href="#Navbar">
             <img
               src="BRYAN.png"
               alt="image"
@@ -28,7 +28,7 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#header">Home</a>
+                <a className="nav-link" href="#Navbar">Home</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#about">About</a>
