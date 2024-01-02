@@ -187,7 +187,7 @@ function Experience() {
                 </Modal.Header>
                 <Modal.Body>
                 <h3>Details</h3>
-                <p>Duration: 4 months<br/>August - December</p>
+                <p>Duration: 1 week<br/>October</p>
                 <h3>About the project</h3>
                 <img src="Hackathon.jpg" alt="image" className="ModalView" />
                 <p>
