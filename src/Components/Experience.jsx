@@ -149,6 +149,9 @@ function Experience() {
                     <div className="col">
                         <a href="https://drive.google.com/file/d/17icTa8JfaxQWwAwY7_hd9fcPXnpb6udU/view?usp=drive_link" target={"_blank"} rel="noreferrer"><img src="Mooc.png" alt="image" /></a>
                     </div>
+                    <div className="col">
+                        <a href="https://drive.google.com/file/d/1GWzek0euuJzpa94XSlFG3mGunEVYYVZ_/view?usp=drive_link" target={"_blank"} rel="noreferrer"><img src="CodinGame.png" alt="image" /></a>
+                    </div>
                 </div>
                 <div className="row">
                     <div className="col">
@@ -188,12 +191,13 @@ function Experience() {
                 <Modal.Body>
                 <h3>Details</h3>
                 <p>Duration: 1 week<br/>October</p>
+
                 <h3>About the project</h3>
                 <img src="Hackathon.jpg" alt="image" className="ModalView" />
                 <p>
-                    Designer and developer in ASECNA Ivato Madagascar, I worked on a big project between for innovating
-                    the performance of aeronautical networks.Perhaps I'm a fullstack developer, I've experienced networking management
-                    in the way my project is to design and develop a data gateway between two aeronautical networks which are AMHS and IATA
+                    I participated in Algorithm's content with DevFest Pro Madagascar 2022 in Antananarivo.It is about to solve
+                    some problems with the helps of algorithms,I've chosen 'C' as programming languages to solve five problems online which includes
+                    professional problems and in average problems levels
                 </p>
                 </Modal.Body>
             </Modal>
